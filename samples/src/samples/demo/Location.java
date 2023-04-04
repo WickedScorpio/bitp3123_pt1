@@ -5,7 +5,7 @@ public class Location {
 	private String tempat;
 	private String negara;
 	private int poscode;
-	private int nombor;
+	
 	
 	public String getTempat() {
 		return tempat;
@@ -24,12 +24,6 @@ public class Location {
 	}
 	public void setPoscode(int poscode) {
 		this.poscode = poscode;
-	}
-	public int getNombor() {
-		return nombor;
-	}
-	public void setNombor(int nombor) {
-		this.nombor = nombor;
 	}
 	
 }
